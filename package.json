@@ -1,0 +1,21 @@
+{
+  "name": "puppeteer-screenshot-api",
+  "version": "1.0.0",
+  "description": "API for capturing website screenshots with Puppeteer",
+  "main": "api/capture.js",
+  "scripts": {
+    "start": "node api/capture.js",
+    "dev": "vercel dev",
+    "deploy": "vercel"
+  },
+  "dependencies": {
+    "puppeteer-core": "^10.0.0",
+    "chrome-aws-lambda": "^10.1.0"
+  },
+  "devDependencies": {
+    "vercel": "^23.1.2"
+  },
+  "engines": {
+    "node": "14.x"
+  }
+}
